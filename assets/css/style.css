@@ -1,11 +1,8 @@
 /* =====================Fonts & Colors==================== */
 /* Farben: #2C2C2C, #FDF860, #000000, #FFFFFF, #97F5BB, #525DF4 */
 /* Fonts: Orbitron, Lato */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap');
-
 /* =====================Generally==================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +35,6 @@ html {
     padding-top: 113px;
 }
 /* =====================Buttons Home&Away==================== */
-
 .btnHome, .btnAway {
     font-family: 'Lato';
     font-size: 37px;
@@ -74,7 +70,6 @@ html {
 button {
     border: none;
 }
-
 /* =====================Home==================== */
 main {
     margin: 0 auto; 
@@ -95,9 +90,7 @@ main {
     background-color: #2C2C2C;
     color: #FFFFFF;
 }
-
 /* =====================Away==================== */
-
 .CounterAway {
     height: 489px;
     width: 489px;
@@ -114,9 +107,7 @@ main {
     background-color: #2C2C2C;
     color: #FFFFFF;
 }
-
 /* =====================Footer==================== */
-
 .reset {
     margin-top: 82px;
 }
@@ -130,9 +121,7 @@ main {
     margin-left: 659px;
     margin-bottom: 49px;
 }
-
  /* =====================Footer Team-Name EXTRAS==================== */
-
  .team button {
     display: inline-block;
     font-family: 'Lato';
