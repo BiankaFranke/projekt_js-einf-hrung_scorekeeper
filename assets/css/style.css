@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -35,6 +35,9 @@ html {
     margin-top: 123px;
 }
 
+.CounterAnzeigeHome, .CounterAnzeigeAway {
+    padding-top: 113px;
+}
 /* =====================Buttons Home&Away==================== */
 
 .btnHome, .btnAway {
@@ -71,8 +74,7 @@ html {
     width: 489px;
     display: inline-block;
     border: 5px solid #97F5BB;
-    margin-left: 155px;
-    /* margin-left: 30%; */
+    margin-left: 18vw; /* margin-left: 155px; */
 }
 
 .CounterHome p {
@@ -81,7 +83,6 @@ html {
     font-size: 37px;
     background-color: red;
     color: #FFFFFF;
-    /* margin-top: -35px; */
     margin-left: 185px;
 }
 
@@ -105,7 +106,12 @@ html {
     /* margin-top: -150px; */
     margin-left: 185px;
 }
+
 /* =====================Footer==================== */
+
+.rest {
+    margin-top: 82px;
+}
 
 .rest button {
     font-family: 'Lato';
@@ -113,22 +119,22 @@ html {
     border-radius: 10px;
     height: 39px;
     width: 122px;
-    margin-left: 659px;
-    /* margin-left: 45%; */
-    margin-top: 82px;
-
+    /* margin-left: 659px; */
+    margin-left: 50%;
 }
 
-/* footer {
-    background-color: red;
-}
+ /* =====================Footer Team-Name EXTRAS==================== */
 
-footer button {
+ .team button {
+     display: inline-block;
     font-family: 'Lato';
     background-color: #FFFFFF;
     border-radius: 10px;
     height: 39px;
     width: 122px;
-    margin-left: 45%;
-    margin-bottom: 49px;
- } */
+    margin-top: 1%;
+}
+
+.team button:first-of-type{
+    margin-left: 50%;
+}
