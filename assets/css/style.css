@@ -1,0 +1,83 @@
+/* =====================Fonts & Colors==================== */
+/* Farben: #2C2C2C, #FDF860, #000000, #FFFFFF, #97F5BB, #525DF4 */
+/* Fonts: Orbitron, Lato */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap');
+
+/* =====================Generally==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    background-color: #2C2C2C;
+}
+
+.Counter {
+    background-color: #000000;
+    border-radius: 30px;
+    color: #FDF860;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 150px;
+    margin: 37px;
+    height: 415px;
+    width: 415px;
+}
+
+.CounterHome, .CounterAway {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-top: 123px;
+}
+
+/* =====================Buttons Home&Away==================== */
+
+.btnHome, .btnAway {
+    font-family: 'Lato';
+    font-size: 37px;
+    color: #FFFFFF;
+    height: 105px;
+    width: 105px;
+}
+
+.btnHome{
+    display: inline-block;
+    background-color: #97F5BB;
+}
+
+.btnAway {
+    display: inline-block;
+    background-color: #525DF4;
+}
+
+/* =====================Home==================== */
+.CounterHome {
+    height: 489px;
+    width: 489px;
+    display: inline-block;
+    border: 5px solid #97F5BB;
+    margin-left: 155px;
+}
+
+/* =====================Away==================== */
+
+.CounterAway {
+    height: 489px;
+    width: 489px;
+    display: inline-block;
+    border: 5px solid #525DF4;
+    margin-left: 150px;
+    margin-right: 157px;
+}
+
+/* =====================Footer==================== */
+
+fotter button {
+    font-family: 'Lato';
+    background-color: #FFFFFF;
+}
