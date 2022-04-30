@@ -12,9 +12,8 @@
       <section class="CounterHome">
         <div class="Counter">
           <div class="CounterAnzeigeHome">0</div>
+          <p>Home</p>
         </div>
-
-        <p>Home</p>
 
         <div class="btnGroupHome">
           <button class="btnHome" onclick="Home1()">+1</button>
@@ -26,9 +25,8 @@
       <section class="CounterAway">
         <div class="Counter">
           <div class="CounterAnzeigeAway">0</div>
+          <p>Away</p>
         </div>
-
-        <p>Away</p>
 
         <div class="btnGroupAway">
           <button class="btnAway" onclick="Away1()">+1</button>
@@ -43,8 +41,13 @@
       </section>
 
       <section class="team">
-        <button onclick="teamNameHome()">Team-Name Home</button>
-        <button onclick="teamNameAway()">Team-Name Away</button>
+        <button onclick="teamName()">Team-Namen</button>
+        <div id="teamNameHome" class="modalDialog">
+          <div>
+            <h1>Team-Namen</h1>
+            <a href="#close" title="Schließen" class="close">X</a>
+          </div>
+        </div>
       </section>
     </footer>
     <script src="./assets/js/main.js"></script>

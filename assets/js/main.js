@@ -54,3 +54,6 @@ function resest() {
 
 // ==============Team-Name Funktionen==============
 
+function teamName() { 
+    window.location.href="#teamNameHome";
+}

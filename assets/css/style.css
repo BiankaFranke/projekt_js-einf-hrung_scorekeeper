@@ -54,6 +54,10 @@ html {
     background-color: #97F5BB;
 }
 
+.btnGroupHome, .btnGroupAway {
+    margin-top: 120px;
+}
+
 .btnGroupHome button:first-of-type, .btnGroupAway button:first-of-type {
     margin-left: 10%;
     margin-right: 25px;
@@ -81,10 +85,18 @@ html {
     display: inline;
     font-family: 'Orbitron';
     font-size: 37px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+/* .CounterHome p {
+    display: inline;
+    font-family: 'Orbitron';
+    font-size: 37px;
     background-color: red;
     color: #FFFFFF;
     margin-left: 185px;
-}
+} */
 
 /* =====================Away==================== */
 
@@ -103,8 +115,6 @@ html {
     font-size: 37px;
     background-color: #2C2C2C;
     color: #FFFFFF;
-    /* margin-top: -150px; */
-    margin-left: 185px;
 }
 
 /* =====================Footer==================== */
@@ -126,7 +136,7 @@ html {
  /* =====================Footer Team-Name EXTRAS==================== */
 
  .team button {
-     display: inline-block;
+    display: inline-block;
     font-family: 'Lato';
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -135,6 +145,57 @@ html {
     margin-top: 1%;
 }
 
-.team button:first-of-type{
+.team button{
     margin-left: 50%;
+}
+
+.team h1 {
+    text-decoration: underline;
+}
+
+.modalDialog {
+    position: Fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: None;
+}
+   
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: Auto;
+}
+   
+.modalDialog > div {
+    font-family: 'Orbitron';
+    width: 600px;
+    position: relative;
+    margin: 10% Auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+}
+   
+.close {
+    background-color:#2C2C2C;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: Absolute;
+    right: -12px;
+    text-align: Center;
+    top: -10px;
+    width: 24px;
+    text-decoration: None;
+    font-weight: Bold;
+    border-radius: 12px;
+}
+   
+.close:hover {
+    color:#FFFFFF;
+    background-color: red;
 }
