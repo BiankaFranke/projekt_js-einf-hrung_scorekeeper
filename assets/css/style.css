@@ -30,7 +30,6 @@ html {
 
 .CounterHome, .CounterAway {
     display: inline-block;
-    box-sizing: border-box;
     border-radius: 40px;
     margin-top: 123px;
 }
@@ -97,7 +96,6 @@ main {
     color: #FFFFFF;
 }
 
-
 /* =====================Away==================== */
 
 .CounterAway {
@@ -145,8 +143,17 @@ main {
     margin-bottom: 20px;
 }
 
-.team button {
+.team #oeffnen {
     margin-left: 659px;
+}
+
+.team #submit {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+.team button:nth-of-type(2) {
+    border: #2C2C2C;    
 }
 
 .team h1 {
