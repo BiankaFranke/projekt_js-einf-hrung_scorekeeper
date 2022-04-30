@@ -43,11 +43,21 @@ html {
     color: #FFFFFF;
     height: 105px;
     width: 105px;
+    border-radius: 20px;
 }
 
 .btnHome{
     display: inline-block;
     background-color: #97F5BB;
+}
+
+.btnGroupHome button:first-of-type, .btnGroupAway button:first-of-type {
+    margin-left: 10%;
+    margin-right: 25px;
+}
+
+.btnGroupHome button:last-of-type, .btnGroupAway button:last-of-type {
+    margin-left: 25px;
 }
 
 .btnAway {
@@ -62,6 +72,17 @@ html {
     display: inline-block;
     border: 5px solid #97F5BB;
     margin-left: 155px;
+    /* margin-left: 30%; */
+}
+
+.CounterHome p {
+    display: inline;
+    font-family: 'Orbitron';
+    font-size: 37px;
+    background-color: red;
+    color: #FFFFFF;
+    /* margin-top: -35px; */
+    margin-left: 185px;
 }
 
 /* =====================Away==================== */
@@ -75,9 +96,39 @@ html {
     margin-right: 157px;
 }
 
+.CounterAway p {
+    display: inline;
+    font-family: 'Orbitron';
+    font-size: 37px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    /* margin-top: -150px; */
+    margin-left: 185px;
+}
 /* =====================Footer==================== */
 
-fotter button {
+.rest button {
     font-family: 'Lato';
     background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 39px;
+    width: 122px;
+    margin-left: 659px;
+    /* margin-left: 45%; */
+    margin-top: 82px;
+
 }
+
+/* footer {
+    background-color: red;
+}
+
+footer button {
+    font-family: 'Lato';
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 39px;
+    width: 122px;
+    margin-left: 45%;
+    margin-bottom: 49px;
+ } */
