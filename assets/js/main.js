@@ -48,8 +48,12 @@ function Away3() {
 function reset() {
     Home = 0;
     Away = 0;
+    AnzeigeNameHome = "Home";
+    AnzeigeNameAway = "Away";
     CounterAnzeigeHome.innerHTML = Home;
     CounterAnzeigeAway.innerHTML = Away;
+    CounterNameHome.innerHTML = AnzeigeNameHome;
+    CounterNameAway.innerHTML = AnzeigeNameAway;
 };
 
 // ==============Team-Name Funktionen EXTRAS==============

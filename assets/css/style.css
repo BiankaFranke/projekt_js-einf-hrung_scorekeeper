@@ -156,7 +156,7 @@ main {
 #teamNameHome p {
     font-family: 'Lato';
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #NameHome {
@@ -176,7 +176,7 @@ main {
 }
 
 .modalDialog {
-    position: Fixed;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -195,9 +195,10 @@ main {
 .modalDialog > div {
     font-family: 'Orbitron';
     width: 300px;
+    padding-left: 10px;
+    padding-top: 15px;
     position: relative;
     margin: 10% Auto;
-    padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background-color: #FFFFFF;
     color: #2C2C2C;
@@ -206,14 +207,12 @@ main {
 .close {
     background-color:#2C2C2C;
     color: #FFFFFF;
-    line-height: 25px;
     position: Absolute;
     right: -12px;
-    text-align: Center;
+    text-align: center;
     top: -10px;
     width: 24px;
     text-decoration: None;
-    font-weight: Bold;
     border-radius: 12px;
 }
    
