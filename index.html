@@ -12,7 +12,7 @@
       <section class="CounterHome">
         <div class="Counter">
           <div class="CounterAnzeigeHome">0</div>
-          <p>Home</p>
+          <p class="CounterNameHome">Home</p>
         </div>
 
         <div class="btnGroupHome">
@@ -25,7 +25,7 @@
       <section class="CounterAway">
         <div class="Counter">
           <div class="CounterAnzeigeAway">0</div>
-          <p>Away</p>
+          <p class="CounterNameAway">Away</p>
         </div>
 
         <div class="btnGroupAway">
@@ -37,16 +37,26 @@
     </main>
     <footer>
       <section class="reset">
-        <button onclick="resest()">Reset</button>
+        <button onclick="reset()">Reset</button>
       </section>
 
       <section class="team">
-        <button onclick="teamName()">Team-Namen</button>
+        <button id="#oeffnen" onclick="teamName()">Team-Namen</button>
         <div id="teamNameHome" class="modalDialog">
           <div>
             <h1>Team-Namen</h1>
             <p>Gib hier die Team-Namen ein:</p>
-            <input type="text" name="Name" id="NameHome" />
+
+            <h4>Name des Home-Team:</h2>
+            <input type="text" name="NameHome" id="NameHome" />
+            <p id="AnzeigeNameHome"></p>
+
+            <h4>Name des Away-Team:</h2>
+            <input type="text" name="NameAway" id="NameAway" />
+            <p id="AnzeigeNameAway"></p>
+
+            <button onclick="submit()">Klick</button>
+
             <a href="#close" title="Schließen" class="close">X</a>
           </div>
         </div>

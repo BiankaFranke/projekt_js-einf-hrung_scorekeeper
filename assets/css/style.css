@@ -72,6 +72,10 @@ html {
     background-color: #525DF4;
 }
 
+button {
+    border: none;
+}
+
 /* =====================Home==================== */
 main {
     margin: 0 auto; 
@@ -127,7 +131,6 @@ main {
     width: 122px;
     margin-left: 659px;
     margin-bottom: 49px;
-    /* margin-left: 50%; */
 }
 
  /* =====================Footer Team-Name EXTRAS==================== */
@@ -142,9 +145,8 @@ main {
     margin-bottom: 20px;
 }
 
-.team button{
+.team button {
     margin-left: 659px;
-    /* margin-left: 50%; */
 }
 
 .team h1 {
@@ -154,6 +156,23 @@ main {
 #teamNameHome p {
     font-family: 'Lato';
     margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#NameHome {
+    margin-bottom: 10px;
+}
+
+#AnzeigeNameHome, #AnzeigeNameAway {
+    font-size: 20px;
+}
+
+#AnzeigeNameHome {
+    color: #97F5BB;
+}
+
+#AnzeigeNameAway {
+    color: #525DF4;
 }
 
 .modalDialog {
