@@ -29,7 +29,6 @@ function Home3() {
 
 function Away1() {
     Away += 1;    // Away = Away + 1; 
-
     CounterAnzeigeAway.innerHTML = Away;
 }
 
@@ -57,3 +56,5 @@ function resest() {
 function teamName() { 
     window.location.href="#teamNameHome";
 }
+
+let msg = document.querySelector("#NameHome").value;

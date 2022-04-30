@@ -59,7 +59,7 @@ html {
 }
 
 .btnGroupHome button:first-of-type, .btnGroupAway button:first-of-type {
-    margin-left: 10%;
+    margin-left: 12%;
     margin-right: 25px;
 }
 
@@ -73,12 +73,16 @@ html {
 }
 
 /* =====================Home==================== */
+main {
+    margin: 0 auto; 
+}
+
 .CounterHome {
     height: 489px;
     width: 489px;
     display: inline-block;
     border: 5px solid #97F5BB;
-    margin-left: 18vw; /* margin-left: 155px; */
+    margin-left: 155px; 
 }
 
 .CounterHome p {
@@ -89,14 +93,6 @@ html {
     color: #FFFFFF;
 }
 
-/* .CounterHome p {
-    display: inline;
-    font-family: 'Orbitron';
-    font-size: 37px;
-    background-color: red;
-    color: #FFFFFF;
-    margin-left: 185px;
-} */
 
 /* =====================Away==================== */
 
@@ -119,18 +115,19 @@ html {
 
 /* =====================Footer==================== */
 
-.rest {
+.reset {
     margin-top: 82px;
 }
 
-.rest button {
+.reset button {
     font-family: 'Lato';
     background-color: #FFFFFF;
     border-radius: 10px;
     height: 39px;
     width: 122px;
-    /* margin-left: 659px; */
-    margin-left: 50%;
+    margin-left: 659px;
+    margin-bottom: 49px;
+    /* margin-left: 50%; */
 }
 
  /* =====================Footer Team-Name EXTRAS==================== */
@@ -142,15 +139,21 @@ html {
     border-radius: 10px;
     height: 39px;
     width: 122px;
-    margin-top: 1%;
+    margin-bottom: 20px;
 }
 
 .team button{
-    margin-left: 50%;
+    margin-left: 659px;
+    /* margin-left: 50%; */
 }
 
 .team h1 {
     text-decoration: underline;
+}
+
+#teamNameHome p {
+    font-family: 'Lato';
+    margin-top: 15px;
 }
 
 .modalDialog {
@@ -172,7 +175,7 @@ html {
    
 .modalDialog > div {
     font-family: 'Orbitron';
-    width: 600px;
+    width: 300px;
     position: relative;
     margin: 10% Auto;
     padding: 5px 20px 13px 20px;
